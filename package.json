@@ -4,7 +4,7 @@
   "description": "This is a minimalist version of a To-do List website.",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "webpack serve --open",
     "build": "webpack",
     "watch": "jest -- watch *.js"
@@ -28,6 +28,7 @@
     "eslint-plugin-import": "^2.25.4",
     "hint": "^6.1.10",
     "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.5.1",
     "sass": "^1.49.9",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
@@ -326,7 +327,6 @@
     "isexe": "^2.0.0",
     "isstream": "^0.1.2",
     "jake": "^10.8.4",
-    "jest": "^27.5.1",
     "js-library-detector": "^6.4.0",
     "js-tokens": "^4.0.0",
     "js-yaml": "^3.14.1",
